@@ -7,11 +7,11 @@ try:
     mail = smtplib.SMTP("smtp.gmail.com",587)
     mail.ehlo()
     mail.starttls()
-    mail.login("mustafaulun7@gmail.com", "")
+    mail.login("", "")
 
     mesaj = MIMEMultipart()
-    mesaj["From"] = "mustafaulun7@gmail.com"           # Gönderen
-    mesaj["Subject"] = "ulunmustafa0@yahoo.co.uk"    
+    mesaj["From"] = ""           # Gönderen
+    mesaj["Subject"] = ""    
     body = """
 
     Python ile email gönderiyorum.
